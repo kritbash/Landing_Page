@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin-left: 20px;
+    background-color: rgb(223, 221, 221);
+}
+.left img{
+    width: 250px;
+    height: 200px;
+}
+.second .right{
+    margin-top: -170px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+.first .left{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.first .left h2{
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-left:-70px;
+}
+.sectionfirst{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+.sectionfirst .section1{
+    width: 25%;
+    
+}
+.sectionfirst .section2{
+    width: 72%;
+}
+.sectionfirst .section1 h1{
+    font-size: 2rem;
+}
+.sectionfirst .section1 p{
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+.sectionfirst .section1 .dis{
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+}
+.section2{
+    display: flex;
+    
+}
+.section2 .picture1 img{
+    margin-top: -40px;
+    position: relative;
+    width: 250px;
+    height: 400px;
+}
+.section2 .picture2 img{
+    position: relative;
+    margin-top: -104px;
+    margin-left: 50px;
+    width: 250px;
+    height: 400px;
+}
+.section2 .picture3 img{
+    position: relative;
+    margin-top: -146px;
+    margin-left: 54px;
+    width: 229px;
+    height: 370px;
+}
+.section2 .picture1 h1{
+    color: rgb(170, 95, 4);
+    position: absolute;
+    margin-top: -66px;
+    margin-left: 222px;
+}
+.section2 .picture2 h1{
+    color: rgb(170, 95, 4);
+    position: absolute;
+    margin-top: -133px;
+    margin-left: 262px; 
+}
+.section2 .picture3 h1{
+    color: rgb(170, 95, 4);
+    position: absolute;
+    margin-top: -176px;
+    margin-left: 252px;
+}
+
+
+
+
